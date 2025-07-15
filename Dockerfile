@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
     python3 \
-    python3-pipx \
+    # python3-pip \
     git 
     #python3-PyYAML
 
