@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     #python3-PyYAML
 
 # RUN pip install PyYAML
+RUN pip install --upgrade pip
 # RUN pipx install PyYAML
 # RUN apt-get install PyYAML
 
