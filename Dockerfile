@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     git 
     #python3-PyYAML
 
+RUN pip install Flask
 RUN pip install PyYAML
 # RUN pip install --upgrade pip
 # RUN pip install pyyaml
