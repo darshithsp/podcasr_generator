@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 # RUN apt-get install -y python3-PyYAML
 
 # RUN pip install Flask
-RUN pip install -y PyYAML
+# RUN pip install -y PyYAML
 RUN pip3 install -y PyYAML
 RUN pip install PyYAML
 # RUN pip install --upgrade pip
