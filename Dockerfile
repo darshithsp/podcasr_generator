@@ -6,11 +6,16 @@ RUN apt-get update && apt-get install -y \
     git 
     #python3-PyYAML
 
+
+RUN pip3 install PyYAML
+
+
+
 # RUN apt-get install -y python3-Flask
 # RUN apt-get install -y python3-PyYAML
 
-RUN apt install -y python3-Flask
-RUN apt install -y python3-PyYAML
+# RUN apt install -y python3-Flask
+# RUN apt install -y python3-PyYAML
 
 # RUN pip install Flask
 # RUN pip install -y PyYAML
